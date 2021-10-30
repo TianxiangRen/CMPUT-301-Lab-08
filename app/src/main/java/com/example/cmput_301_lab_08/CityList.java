@@ -36,6 +36,13 @@ public class CityList {
     }
 
 
+    /**
+     * When given a city, return whether or not it belongs in the list
+     * @param city
+     *      a candidate city that is going to be checked whether it is in the city list
+     * @return
+     *      true if in the list; false otherwise
+     */
     public boolean hasCity(City city){
         return false;
     }

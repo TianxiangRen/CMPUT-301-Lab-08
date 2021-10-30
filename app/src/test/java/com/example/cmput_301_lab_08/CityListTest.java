@@ -7,7 +7,7 @@ import org.junit.Test;
 
 public class CityListTest {
     @Test
-    void testHasCity(){
+    public void testHasCity(){
         CityList cityList = new CityList();
         City city1 = new City("Edmonton", "AB");
         City city2 = new City("Saskatoon", "SK");
